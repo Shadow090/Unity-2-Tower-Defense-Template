@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,4 +12,5 @@ public class TowerType : ScriptableObject
     public Color color = Color.gray;
     public Sprite sprite;
     public float attackRange;
+    public ProjectileType projectile;
 }
